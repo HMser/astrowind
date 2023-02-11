@@ -2,32 +2,9 @@ import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
 
 export const headerData = {
   links: [
-    {
-      text: 'test',
-      href: '#',
-    },
         {
-          text: 'Sass',
-          href: '#',
-        },
-        {
-          text: 'Startup',
-          href: '#',
-        },
-        {
-          text: 'Mobile App',
-          href: '#',
-        },
-    {
-      text: 'Pages',
-      links: [
-        {
-          text: 'Features',
-          href: '#',
-        },
-        {
-          text: 'Pricing',
-          href: '#',
+      text: 'Blog',
+      href: getBlogPermalink(),
         },
         {
           text: 'About us',
@@ -36,14 +13,6 @@ export const headerData = {
         {
           text: 'Contact',
           href: '#',
-        },
-        {
-          text: 'Terms',
-          href: getPermalink('/terms'),
-        },
-        {
-          text: 'Privacy policy',
-          href: getPermalink('/privacy'),
         },
       ],
     },
